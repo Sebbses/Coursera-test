@@ -14,7 +14,7 @@
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 .navbar-brand h1 { /* Restaurant name */
@@ -31,41 +31,8 @@
 }
 
 
-h3 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 #main-content {
     padding-top: 90px;
-}
-
-/** OPTIONAL, UNGRADED PORTION **/
-.box1 {
-   background-color: lightgray;
-   margin-left: 15px;
-   margin-right: 15px;
-}
-
-p {
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-
-.progress-container {
-  width: 100%;
-  height: 5px;
-  background: #ccc;
-  position: fixed;
-}
-
-
-.progress-bar {
-  height: 5px;
-  background: #4caf50;
-  width: 0%;
-
 }
 
 .category-tile { 
@@ -122,18 +89,6 @@ p {
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
-  /* Header */
-  .navbar-brand h1 { /* Restaurant name */
-    padding-top: 5px;
-    font-size: 6vw;
-  }
-  /* End Header */
-  
-  /* Home page */
-  #menu-tile, #specials-tile {
-    width: 280px;
-    margin: 0 auto 15px;
-  }
 
   .col-xxs-12 {
     position: relative;
