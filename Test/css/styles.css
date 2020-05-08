@@ -8,7 +8,7 @@
   background-color: #7395AE;
   border-radius: 0;
   border: 0;
-  padding-bottom: 15px;
+  padding-bottom: 40px;
   z-index:1000;
 
 }
@@ -25,7 +25,6 @@
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -38,7 +37,7 @@ h3 {
 }
 
 #main-content {
-    padding-top: 80px;
+    padding-top: 90px;
 }
 
 /** OPTIONAL, UNGRADED PORTION **/
@@ -100,7 +99,7 @@ p {
 
 #parfym {
     position: absolute;
-    top: 15px;
+    top: -5px;
 }
 
 #solglas {
