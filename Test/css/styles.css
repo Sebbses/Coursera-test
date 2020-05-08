@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+/** HEADER **/
+
+#header-nav {
+  background-color: #7395AE;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 15px;
+  z-index:1000;
+
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Helvetica', serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#main-content {
+    padding-top: 80px;
+}
+
+/** OPTIONAL, UNGRADED PORTION **/
+.box1 {
+   background-color: lightgray;
+   margin-left: 15px;
+   margin-right: 15px;
+
+}
+
+p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.progress-container {
+  width: 100%;
+  height: 5px;
+  background: #ccc;
+  position: fixed;
+}
+
+
+.progress-bar {
+  height: 5px;
+  background: #4caf50;
+  width: 0%;
+
+}
+
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+
+#parfym {
+    position: absolute;
+    top: 15px;
+}
+
+#solglas {
+    position: absolute;
+    top: -10px;
+}
+
+#kvarn {
+    position: absolute;
+    top: -35px;
+}
+
+#headset {
+    position: absolute;
+    left: -10px;
+}
+
+#hej {
+    font-size: 1.5em;
+}
